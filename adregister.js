@@ -30,7 +30,7 @@ var moment=require('moment')
 
 //web3
 const Web3  =  require('web3');
-const web3  =  new Web3("https://ropsten.infura.io/v3/a1adccee1f9641a0b5f31b21690eb483");
+const web3  =  new Web3("***********ropsten_infura **********");
 //tron
 const TronWeb = require('tronweb')
 const HttpProvider = TronWeb.providers.HttpProvider;
@@ -38,7 +38,7 @@ const fullNode = new HttpProvider("https://api.shasta.trongrid.io"); // For Shas
 // const fullNode = new HttpProvider("https://api.trongrid.io"); // For Mainnet
 const solidityNode = new HttpProvider("https://api.trongrid.io");
 const eventServer = new HttpProvider("https://api.trongrid.io");
-const privateKey = "03B433392656870A216606E98CB3AA5EDD940E021C5BA3660F9CF4365257FF95";
+const privateKey = "**********PrivateKey********";
 const tronWeb = new TronWeb(fullNode,solidityNode,eventServer,privateKey);
 
 
@@ -46,11 +46,11 @@ const tronWeb = new TronWeb(fullNode,solidityNode,eventServer,privateKey);
 var bitcoin_rpc = require('node-bitcoin-rpc')
 // var btcbalance= require('balance-crypto')
 let btc_config={
-                protocol : "http",
-                host :"192.168.1.60",
-                user : "bitcoin",
-                password : "Bitcoin",
-                port  : "18332"
+                protocol : "***",
+                host :"****",
+                user : "*****",
+                password : "*****",
+                port  : "***"
 };
 var translist=require('../modal/translistbtc')
 const admin = require('../modal/admin')
