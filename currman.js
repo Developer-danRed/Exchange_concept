@@ -41,12 +41,12 @@ exports.marketprice=async(req,res)=>{
 let response = null;
 new Promise(async (resolve, reject) => {
   try {
-    response = await axios.get('http://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?limit=35', {
+    response = await axios.get('**********pro-api.coinmarketcap*********', {
     
     
 
     headers: {
-        'X-CMC_PRO_API_KEY': 'f3290767-4bd9-4b8d-8507-6297064cd021',
+        'X-CMC_PRO_API_KEY': '*********API-KEY*********',
       },
     });
    
